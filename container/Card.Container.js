@@ -13,6 +13,7 @@ export default function CardContainer({ key, filter, item }) {
     if (!filter) return;
     filter(item);
   };
+  console.log(item);
   return (
     <div className={styles.container}>
       <Card key={key} handleFilter={handleFilter}>

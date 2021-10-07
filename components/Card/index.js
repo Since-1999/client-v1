@@ -8,7 +8,7 @@ export default function Card({ key, handleFilter, children, ...restProps }) {
       <>
         {children}
         <Button type="button">
-          <Link href={`/posts/${key}`}>Đi đến bài post</Link>
+          <Link href={`/posts/1`}>Đi đến bài post</Link>
         </Button>
         <Button onClick={handleFilter} type="button">
           Xóa

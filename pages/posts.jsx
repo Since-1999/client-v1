@@ -21,7 +21,7 @@ export default function PostList() {
     const newDataFiltered = newArray.filter((item) => item !== value);
     setListMovie(newDataFiltered);
   };
-
+  console.log(listMovie);
   const fetchData =
     listMovie.length === 0 ? (
       <div>Loading ...</div>
