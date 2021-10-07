@@ -22,5 +22,5 @@ Card.Title = function CardTitle({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>;
 };
 Card.Image = function CardImage({ src, ...restProps }) {
-  return <Image {...restProps} src={src} alt="Image" />;
+  return <Image {...restProps} src="/images/1.jpg" alt="Image" />;
 };
